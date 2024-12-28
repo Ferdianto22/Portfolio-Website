@@ -37,7 +37,7 @@ export default function Faqs() {
                     <Tag>Faqs</Tag>
                 </div>
                 <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">
-                    Questions? We&apos;ve got{" "}
+                    Questions? I&apos;ve got{" "}
                     <span className="text-yellow-400">answers</span>
                 </h2>
 

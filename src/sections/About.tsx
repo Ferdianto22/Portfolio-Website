@@ -49,7 +49,7 @@ export default function About() {
                             ))}
                         </span>
                         <span className="text-yellow-400 block">
-                            That&apos;s why we built websites.
+                            That&apos;s why I'm built websites.
                         </span>
                     </div>
                 </div>
