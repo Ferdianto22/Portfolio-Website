@@ -1,8 +1,8 @@
 "use client";
 
 import Tag from "@/components/Tag";
-import { useMotionValueEvent, useScroll, useTransform } from "framer-motion";
-import { useEffect, useState, useRef } from "react";
+import { useScroll, useTransform } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
 import { twMerge } from "tailwind-merge";
 
 const text = `The craft of web development is not just about making a site look good. It's about making connections.`;
@@ -33,14 +33,23 @@ export default function About() {
                         <Tag>Introducing</Tag>
                     </div>
                     <div className="text-4xl md:text-6xl lg:text-7xl text-center font-medium mt-10">
-                        <span>The website does not just connect machines, it connects people.</span>{" "}
+                        <span>
+                            The website does not just connect machines, it
+                            connects people.
+                        </span>{" "}
                         <span className="text-white/15">
                             {words.map((word, wordIndex) => (
-                                <span key={wordIndex} className={twMerge("transition duration-500 text-white/15", wordIndex < currentWord && "text-white")}>{`${word} `}</span>
+                                <span
+                                    key={wordIndex}
+                                    className={twMerge(
+                                        "transition duration-500 text-white/15",
+                                        wordIndex < currentWord && "text-white"
+                                    )}
+                                >{`${word} `}</span>
                             ))}
                         </span>
                         <span className="text-yellow-400 block">
-                            That's why we built websites.
+                            That&apos;s why we built websites.
                         </span>
                     </div>
                 </div>

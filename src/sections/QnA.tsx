@@ -24,7 +24,7 @@ const faqs = [
     },
     {
         question: "What are my social media that can be contacted?",
-        answer: "Linked-In: Ferdianto F., Instagram: @ferdiantoz, GitHub: Ferdianto22"
+        answer: "Linked-In: Ferdianto F., Instagram: @ferdiantoz, GitHub: Ferdianto22",
     },
 ];
 
@@ -37,7 +37,7 @@ export default function Faqs() {
                     <Tag>Faqs</Tag>
                 </div>
                 <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">
-                    Questions? We've got{" "}
+                    Questions? We&apos;ve got{" "}
                     <span className="text-yellow-400">answers</span>
                 </h2>
 

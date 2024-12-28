@@ -7,13 +7,15 @@ const Footer = () => {
                 <div className="mb-8 md:mb-0 flex-1">
                     <h2 className="text-lg font-bold mb-4">About Me</h2>
                     <p className="text-gray-400">
-                        I'm is a passionate developers creating stunning
+                        I&apos;m is a passionate developers creating stunning
                         front-end designs and seamless user experiences.
                     </p>
                 </div>
 
                 <div className="flex-1">
-                    <h2 className="text-lg font-bold mb-4 ml-20 px-2">Contact Me</h2>
+                    <h2 className="text-lg font-bold mb-4 ml-20 px-2">
+                        Contact Me
+                    </h2>
                     <div className="text-gray-200">
                         <div className="flex space-x-6 justify-center items-center mt-4">
                             <a

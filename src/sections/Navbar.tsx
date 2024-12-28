@@ -1,10 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import Button from "@/components/Button";
+import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
-import { AnimatePresence, motion } from "framer-motion";
 
 const navLinks = [
     { label: "Home", href: "#" },
@@ -18,7 +17,7 @@ const scrollToSection = () => {
     if (section) {
         section.scrollIntoView({ behavior: "smooth" });
     }
-}
+};
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +28,7 @@ export default function Navbar() {
                     <div className="border border-white/15 rounded-[27px] md:rounded-full bg-neutral-950/70 backdrop-blur">
                         <div className="grid grid-cols-2 lg:grid-cols-3 p-2 px-4 md:pr-2 items-center">
                             <div className="font-bold text-2xl ml-6">
-                               Ferdianto
+                                Ferdianto
                             </div>
 
                             <div className="lg:flex justify-center items-center hidden">
@@ -114,7 +113,10 @@ export default function Navbar() {
                                                 {link.label}
                                             </a>
                                         ))}
-                                        <Button variant="primary" className="block">
+                                        <Button
+                                            variant="primary"
+                                            className="block"
+                                        >
                                             Contact Me
                                         </Button>
                                     </div>

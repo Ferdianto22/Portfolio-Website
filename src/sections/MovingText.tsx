@@ -40,7 +40,9 @@ export default function CallToAction() {
                             <span className="text-yellow-400 text-7xl">
                                 &#10038;
                             </span>
-                            <span className="group-hover:text-yellow-400">Let's Work Together</span>
+                            <span className="group-hover:text-yellow-400">
+                                Let&apos;s Work Together
+                            </span>
                         </div>
                     ))}
                 </motion.div>
