@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
 
             <div className="mt-8 text-center text-sm text-gray-500">
-                © 2024 My Website. All Rights Reserved.
+                © {new Date().getFullYear()} My Website. All Rights Reserved.
             </div>
         </footer>
     );
